@@ -19,10 +19,16 @@
     <modules>
         <module>gmall-admin</module>
         <module>gmall-common</module>
+        <module>gmall-pms</module>
+        <module>gmall-oms</module>
+        <module>gmall-wms</module>
+        <module>gmall-sms</module>
+        <module>gmall-ums</module>
+        <module>gmall-gateway</module>
     </modules>
 
     <properties>
-        <spring-cloud.version>Hoxton.SR2</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
         <mybatisplus.version>3.3.1.tmp</mybatisplus.version>
         <mysql.version>5.1.46</mysql.version>
